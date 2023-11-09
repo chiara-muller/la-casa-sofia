@@ -2,7 +2,7 @@ import {defer} from '@shopify/remix-oxygen';
 import {Await, useLoaderData, Link} from '@remix-run/react';
 import {Suspense} from 'react';
 import {Image, Money} from '@shopify/hydrogen';
-import Background from 'public/logo2.jpg';
+// import Background from 'public/logo2.jpg';
 
 /**
  * @type {MetaFunction}
@@ -28,7 +28,10 @@ export default function Homepage() {
   const data = useLoaderData();
   return (
     <div className="home">
-      <img src={Background} alt="background" className="background-img" />
+      <div className="title-container">
+        <h1 className="title">LA <br /> CASA <br /> SOFIA</h1>
+        <p>CERAMIC STUDIO</p>
+      </div>
       <FeaturedCollection collection={data.featuredCollection} />
       <RecommendedProducts products={data.recommendedProducts} />
     </div>
