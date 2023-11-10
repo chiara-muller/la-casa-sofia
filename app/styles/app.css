@@ -8,50 +8,6 @@
   --color-light: #fff;
 }
 
-
-.title-container {
-  background-image: url(public/logo2.jpg);
-  background-size: 100%;
-  height: 700px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.title {
-  font-size: 126px;
-  line-height: 125px;
-  margin: 0;
-}
-
-.collection-container {
-  background-color: aqua;
-  height: 700px;
-  text-align: center;
-}
-
-.inspiring-container {
-  background-image: url(public/pxfuel.jpeg);
-  background-color: pink;
-  height: 700px;
-  text-align: center;
-}
-
-.inspiring-quotes {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.inspiring-quote {
-  width: 200px;
-  margin-top: 200px;
-  font-size: 25px;
-
-}
-
-
 /*
 * --------------------------------------------------
 * components/Aside
@@ -342,11 +298,68 @@ aside li {
 * routes/__index
 * --------------------------------------------------
 */
+.title-container {
+  background-image: url(public/logo2.jpg);
+  background-size: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 126px;
+  line-height: 125px;
+  margin: 0;
+}
+
+.subtitle {
+  padding-top: 90px;
+  font-size: 60px;
+}
+
+
+.collection-container {
+  background-color: aqua;
+  height: 700px;
+  text-align: center;
+}
+
+.inspiring-container {
+  background-image: url(public/pxfuel.jpeg);
+  height: 700px;
+  text-align: center;
+}
+
+.inspiring-quotes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inspiring-quote {
+  width: 200px;
+  margin-top: 150px;
+  font-size: 25px;
+}
+
+.contact-container {
+  height: 700px;
+  text-align: center;
+  background-image: linear-gradient(to right, #fbf8a1, #ffe49d, #ffd1a4, #ffc2af, #ffb7bb, #f8b3c6, #edb1d0, #deb0d9, #ceb2e2, #bcb5e8, #a8b8ea, #94bbe9);
+}
+
+.contact-info {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
 .featured-collection {
   display: block;
   margin-bottom: 2rem;
   position: relative;
-  padding: 30px;
 }
 
 .featured-collection-image {
