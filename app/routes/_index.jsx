@@ -70,14 +70,18 @@ export default function Homepage() {
       </div>
       <div className="box-container">
         <div className="box-info">
-          <h2>Everything in one box, to make your own pieces, by yourself.</h2>
-          <ul>
+          <h2 style={{fontSize: '35px'}}>
+            Everything in one box, to make your own pieces, by yourself.
+          </h2>
+          <br />
+          <ul style={{listStyle: 'inside'}}>
             <li>One box in the most beautiful package, with a manual</li>
             <li>Clay and tools to make your own unique pieces</li>
             <li>8 Pastel acrylic paint and brushes</li>
             <li>Varnish gloss</li>
           </ul>
-          <p>Your box for 49,99$</p>
+          <br />
+          <p style={{fontSize: '30px'}}>Your box for 49,99$</p>
         </div>
         <div className="box-img">
           <img className="img-info" src={BoxImg} alt="" />

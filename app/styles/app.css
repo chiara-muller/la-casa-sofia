@@ -354,13 +354,14 @@ aside li {
 }
 
 .box-info {
+  width: 450px;
+  height: 450px;
   text-align: start;
-  align-items: baseline;
 }
 
 .box-img {
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
 }
 
