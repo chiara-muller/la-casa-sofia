@@ -344,6 +344,31 @@ aside li {
   font-size: 25px;
 }
 
+.box-container {
+  height: 700px;
+  text-align: center;
+  background-image: radial-gradient(circle, #94bbe9, #8ac5eb, #85cfea, #88d7e6, #91dfe0, #94e1e0, #97e2e1, #9ae4e1, #96e1e8, #95ddee, #98d8f2, #9fd3f4);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box-info {
+  text-align: start;
+  align-items: baseline;
+}
+
+.box-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.img-info {
+  width: 100%;
+  border-radius: 25px;
+}
+
 .contact-container {
   height: 700px;
   text-align: center;
@@ -354,6 +379,20 @@ aside li {
   display: flex;
   text-align: center;
   justify-content: center;
+  margin-top: 160px;
+}
+
+.contact-button {
+  cursor: pointer;
+  padding: 6px 10px 6px 10px;
+  border-radius: 15px;
+  border: 1px solid;
+}
+
+.link-info {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
 .featured-collection {
