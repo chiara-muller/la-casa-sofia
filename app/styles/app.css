@@ -327,6 +327,16 @@ aside li {
   text-align: center;
 }
 
+.collections {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.collection {
+  width: 200px;
+  margin-top: 125px;
+}
+
 .inspiring-container {
   background-image: url(public/pxfuel.jpeg);
   height: 700px;
@@ -360,8 +370,8 @@ aside li {
 }
 
 .box-img {
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   border-radius: 50%;
 }
 
