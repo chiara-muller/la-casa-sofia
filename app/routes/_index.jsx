@@ -42,8 +42,8 @@ export default function Homepage() {
                       alt={`Image of ${collection.title}`}
                       data={collection.image}
                       key={collection.id}
-                      width="200px"
-                      height="200px"
+                      width="300px"
+                      height="300px"
                       crop="center"
                       style={{borderRadius: '50%'}}
                     />

@@ -322,7 +322,7 @@ aside li {
 
 
 .collection-container {
-  background-color: aqua;
+  background-image: linear-gradient(to right, #f5f894, #ddf8a1, #c8f6af, #b7f3be, #acefca, #a2ecd3, #9ce8db, #9ae4e1, #96e1e8, #95ddee, #98d8f2, #9fd3f4);
   height: 700px;
   text-align: center;
 }
@@ -333,8 +333,8 @@ aside li {
 }
 
 .collection {
-  width: 200px;
-  margin-top: 125px;
+  width: 300px;
+  margin-top: 60px;
 }
 
 .inspiring-container {
