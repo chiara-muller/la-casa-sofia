@@ -82,11 +82,9 @@ export default function Homepage() {
             <h4> To be just with yourself or a beloved one </h4>
           </div>
           <div className="inspiring-quote">
-
             <h4>Inspiration is the key to creativity</h4>
           </div>
           <div className="inspiring-quote">
-
             <h4>Made with skin friendly ingredients</h4>
           </div>
         </div>

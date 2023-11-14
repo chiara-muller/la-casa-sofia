@@ -8,6 +8,10 @@
   --color-light: #fff;
 }
 
+* {
+  font-family: 'Rapsed Demo';
+}
+
 /*
 * --------------------------------------------------
 * components/Aside
@@ -311,6 +315,7 @@ aside li {
 
 .title {
   font-size: 126px;
+  font-family: 'Rapsed Demo';
   line-height: 125px;
   margin: 0;
 }
