@@ -315,7 +315,7 @@ aside li {
 
 .title {
   font-size: 126px;
-  font-family: 'Rapsed Demo';
+  color: #D9F49E;
   line-height: 125px;
   margin: 0;
 }
@@ -398,17 +398,70 @@ aside li {
   margin-top: 160px;
 }
 
-.contact-button {
-  cursor: pointer;
-  padding: 6px 10px 6px 10px;
-  border-radius: 15px;
-  border: 1px solid;
-}
-
 .link-info {
   display: flex;
   align-items: center;
   text-decoration: none;
+  padding: 5px 15px;
+  color: #D9F49E;
+
+}
+
+.link-info:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.insta-button {
+  background: transparent;
+  position: relative;
+  padding: 5px 15px;
+  /* display: flex;
+  align-items: center; */
+  font-size: 25px;
+  font-weight: 600;
+  /* text-decoration: none; */
+  cursor: pointer;
+  border: 4px solid #D9F49E;
+  border-radius: 50px;
+  outline: none;
+  overflow: hidden;
+  color: #D9F49E;
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+  z-index: 1000;
+}
+
+.insta-button span {
+  margin: 10px;
+
+}
+
+.insta-button::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  left: -5em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+
+.insta-button:hover {
+  color: #fff;
+  border: 4px solid #D9F49E;
+}
+
+.insta-button:hover::before {
+  box-shadow: inset 0 0 0 10em #D9F49E;
 }
 
 .featured-collection {
