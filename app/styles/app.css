@@ -746,4 +746,10 @@ aside li {
     height: 300px;
     border-radius: 50%;
   }
+  .contact-container {
+    height: 400px;
+  }
+  .contact-info {
+    margin-top: 60px;
+  }
 }
