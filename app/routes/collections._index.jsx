@@ -1,7 +1,7 @@
 import {useLoaderData, Link} from '@remix-run/react';
 import {json} from '@shopify/remix-oxygen';
 import {Pagination, getPaginationVariables, Image} from '@shopify/hydrogen';
-// import Product from '../routes/products.$handle';
+
 /**
  * @param {LoaderFunctionArgs}
  */
