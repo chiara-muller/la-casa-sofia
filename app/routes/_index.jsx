@@ -128,7 +128,8 @@ export default function Homepage() {
               href="https://www.instagram.com/casa_sofia_ceramic/"
               rel="noreferrer"
               target="_blank"
-              className="link-info">
+              className="link-info"
+            >
               <svg
                 viewBox="0 0 16 16"
                 fill="currentColor"

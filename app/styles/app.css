@@ -654,7 +654,6 @@ aside li {
     display: flex;
     flex-direction: column;
     align-items: center;
-
   }
   .homepage-collection {
     width: 200px;
@@ -708,5 +707,43 @@ aside li {
   }
   .contact-info {
     margin-top: 70px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .title-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+  }
+  .collection-container {
+    height: 600px;
+  }
+  .homepage-collection {
+    width: 200px;
+  }
+  .homepage-collection img {
+    width: 200px;
+    height: 200px;
+  }
+  .inspiring-quote {
+    width: 200px;
+    margin-top: 90px;
+    font-size: 25px;
+  }
+  .box-container {
+    height: 600px;
+    align-items: start;
+  }
+  .box-info {
+    margin-top: 25px;
+    width: 300px;
+    height: 300px;
+  }
+  .box-img {
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
   }
 }
