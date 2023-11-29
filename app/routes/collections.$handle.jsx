@@ -44,6 +44,7 @@ export async function loader({request, params, context}) {
 export default function Collection() {
   /** @type {LoaderReturnData} */
   const {collection} = useLoaderData();
+
   return (
     <div className="collection">
       <h1>{collection.title}</h1>

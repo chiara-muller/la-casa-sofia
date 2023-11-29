@@ -81,6 +81,7 @@ function CollectionItem({collection, index}) {
         />
       )}
       <h5>{collection.title}</h5>
+      {/* <Collection /> */}
     </Link>
   );
 }
@@ -101,14 +102,11 @@ const COLLECTIONS_QUERY = `#graphql
   query StoreCollections(
     $country: CountryCode
     $endCursor: String
-    $first: Int
     $language: LanguageCode
-    $last: Int
     $startCursor: String
   ) @inContext(country: $country, language: $language) {
     collections(
-      first: $first,
-      last: $last,
+      first: 10,
       before: $startCursor,
       after: $endCursor
     ) {
