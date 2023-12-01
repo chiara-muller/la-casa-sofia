@@ -342,6 +342,13 @@ aside li {
   margin-top: 60px;
 }
 
+.homepage-collection-img {
+  border-radius: 50%;
+  box-shadow: 2px -5px 23px -3px rgba rgba(255,255,255,0.71);
+    -webkit-box-shadow: 2px -5px 23px -3px rgba(255,255,255,0.71);
+    -moz-box-shadow: 2px -5px 23px -3px rgba(255,255,255,0.71);
+}
+
 .inspiring-container {
   background-image: url(public/pxfuel.jpeg);
   height: 700px;
@@ -383,6 +390,9 @@ aside li {
 .img-info {
   width: 100%;
   border-radius: 25px;
+  box-shadow: 2px -5px 23px -3px rgba rgba(255,255,255,0.71);
+    -webkit-box-shadow: 2px -5px 23px -3px rgba(255,255,255,0.71);
+    -moz-box-shadow: 2px -5px 23px -3px rgba(255,255,255,0.71);
 }
 
 .contact-container {

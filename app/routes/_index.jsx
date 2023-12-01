@@ -35,7 +35,9 @@ export default function Homepage() {
         <p style={{color: '#D9F49E'}}>CERAMIC STUDIO</p>
       </div>
       <div className="collection-container">
-        <h2 className="subtitle">Collections</h2>
+        <Link to={`/collections/`}>
+          <h2 className="subtitle">Collections</h2>
+        </Link>
         <div className="homepage-collections">
           {collections?.nodes?.map((collection) => {
             return (
@@ -46,6 +48,7 @@ export default function Homepage() {
                 <div className="homepage-collection">
                   {collection?.image && (
                     <Image
+                      className="homepage-collection-img"
                       alt={`Image of ${collection.title}`}
                       data={collection.image}
                       key={collection.id}
